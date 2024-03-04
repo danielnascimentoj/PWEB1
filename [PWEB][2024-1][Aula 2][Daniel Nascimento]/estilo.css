@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+}
+.barra-superior{
+    border: solid 1px #be0505;
+    background-color: beige;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.barra-de-busca{
+    background-color: beige;
+    width: fit-content;
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.barra-de-acoes{
+    background-color: beige;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+.bt-primario{
+    background-color: #777777;
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+   
+}
+.bt-primario:hover{
+    background-color: #000000;
+}
+
+.bt-secundario{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+.bt-secundario:hover{
+    background-color: #888888;
+}
+
+.avatar{
+    height: 36px;
+    width: 36px;
+    border-radius: 36px;
+
+    border: solid 1px #888888;
+}
+.avatar:hover{
+    filter: brightness(4%);
+}
+input{
+    border-radius: 100px;
+    height: 35px;
+    border: 4px;
+    background-color: rgb(227, 227, 220);
+    margin-left: 1px;
+}
+#lupa{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    margin-left: 10px;
+    filter: blur(#777777);
+
+    border: solid 1px beige;
+}
+
+img{
+    height: 730px;
+}
+#ifallogo{
+    height: 50px;
+}
