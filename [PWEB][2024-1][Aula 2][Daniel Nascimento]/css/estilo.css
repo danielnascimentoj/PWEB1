@@ -3,7 +3,7 @@ body{
 }
 .barra-superior{
     border: solid 1px #be0505;
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
 
     display: flex;
     flex-direction: row;
@@ -11,7 +11,7 @@ body{
     
 }
 .barra-de-busca{
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     width: fit-content;
 
     
@@ -21,7 +21,7 @@ body{
     align-items: center;
 }
 .barra-de-acoes{
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     display: flex;
 
     flex-direction: row;
@@ -67,18 +67,44 @@ input{
     border-radius: 100px;
     height: 35px;
     border: 4px;
-    background-color: rgb(227, 227, 220);
+    background-color: rgb(240, 239, 239);
     margin-left: 1px;
+    
 }
-#lupa{
-    height: 30px;
-    width: 30px;
-    border-radius: 30px;
+.campo-texto {
+    text-indent: 20px; /* Move o ponto de inserção para a direita */
+  }
+  
+/*#lupa{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
     margin-left: 10px;
+    margin-right: -10px;
     filter: blur(#777777);
 
     border: solid 1px beige;
 }
+*/
+
+.placeholder::placeholder {
+    text-align: left;
+    color: #999; 
+    padding-left: 10px;
+  }
+  .campo-com-imagem {
+    position: relative;
+  }
+  
+  .campo-com-imagem input[type="text"] {
+    padding-left: 40px; /* Ajusta o padding para acomodar a imagem */
+    background-image: url("");
+    background-size: 30px 30px; /* Ajusta o tamanho da imagem */
+    background-position: 5px center; /* Ajusta a posição da imagem */
+    background-repeat: no-repeat; /* Evita que a imagem seja repetida */
+    
+}
+  
 
 img{
     height: 730px;
